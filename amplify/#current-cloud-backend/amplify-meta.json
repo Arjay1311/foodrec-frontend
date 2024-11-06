@@ -1,0 +1,29 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-foodrecognition-dev-7953f-authRole",
+      "UnauthRoleArn": "arn:aws:iam::010526246603:role/amplify-foodrecognition-dev-7953f-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::010526246603:role/amplify-foodrecognition-dev-7953f-authRole",
+      "Region": "ap-south-1",
+      "DeploymentBucketName": "amplify-foodrecognition-dev-7953f-deployment",
+      "UnauthRoleName": "amplify-foodrecognition-dev-7953f-unauthRole",
+      "StackName": "amplify-foodrecognition-dev-7953f",
+      "StackId": "arn:aws:cloudformation:ap-south-1:010526246603:stack/amplify-foodrecognition-dev-7953f/47a76de0-9c26-11ef-b9c5-06dccf0f4435",
+      "AmplifyAppId": "d2n9ez829m5ysh"
+    }
+  },
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-foodrecognition-dev-7953f-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2024-11-06T10:23:55.663Z",
+      "output": {},
+      "lastPushDirHash": "tXTDbVE38Phv5J9U5g/9MF4qtys="
+    }
+  }
+}
